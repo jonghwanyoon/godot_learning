@@ -1,16 +1,53 @@
 [
   {
+    "objectID": "weekly_post.html",
+    "href": "weekly_post.html",
+    "title": "Weekly",
+    "section": "",
+    "text": "한주간 정리",
+    "crumbs": [
+      "Weekly",
+      " "
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "일지",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Godot 공부하면서 정리하기.",
+    "crumbs": [
+      "Home"
+    ]
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "About this site",
+    "crumbs": [
+      "Home",
+      "About"
+    ]
+  },
+  {
+    "objectID": "book_godot4_project.html",
+    "href": "book_godot4_project.html",
+    "title": "일지",
+    "section": "",
+    "text": "Godot 공부하면서 정리하기."
+  },
+  {
+    "objectID": "weekly/2024.07_W4.html",
+    "href": "weekly/2024.07_W4.html",
+    "title": "7월 4주",
+    "section": "",
+    "text": "Godot은 node와 scene으로 구성된다.\n\n노드는 기본 빌딩 블록으로, 게임기능을 제공하는 오브젝트.\n씬은 노드가 모여 트리구조를 이룬 집합.\n\nScript\n\n노드는 기능을 제공하지만, 스크립트를 붙여 동작과 역량을 확장할 수 있다.\nGDScript와 C#을 제공한다. GDScript는 Python과 유사한 문법으로 작성되어있다. 확장성은 가장 좋지만 속도는 그렇지 못한거 같다.\n\n만약 혼자 하겠다면 아트와 사운드를 어떻게 뒷받침할까?\n\n무료, 외주, 협업 등의 방법으로 구한다.\n직접한다. (현실적으로 가능한가?)\n\n대략 플레이어 씬을 만든다고 하면 아래의 과정이 진행된다.\n\n플레이어 노드 생성 (CharacterBody2D지만 용도에 따라 다양하게 사용)\nSprite 생성 (외관)\n애니메이션 (+요소)\nCollision 생성 (히트박스 생성)\n스크립트 (동작요소 추가)\n\n씬의 시간에 따른 동작방식\n\n_process(delta): 모든 프로세스 진행. 세분화 해주는게 좋음.\n_physical_process(delta): 물리 프로세스 진행\n..",
+    "crumbs": [
+      "Weekly",
+      "2024",
+      "7월 4주"
+    ]
   }
 ]
